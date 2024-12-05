@@ -7,7 +7,7 @@ N42 (N) is an implementation of a public blockchain (execution client) on the ef
 
 * For an Full node : ≥ 200 GB of storage space (SSD or NVMe recommended; HDD is not recommended).
 
-RAM: >=16GB, 64-bit architecture, [Golang version >= 1.19](https://golang.org/doc/install)
+* RAM: >=16GB, 64-bit architecture, [Golang version >= 1.19](https://golang.org/doc/install)
 
 
 ## Build from source code
