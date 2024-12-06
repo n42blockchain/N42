@@ -58,14 +58,14 @@ directory.
 
 | Port  | Protocol |         Purpose          |       Expose       |
 |:-----:|:--------:|:------------------------:|:------------------:|
-| 61015 |   UDP    | The port used by discv5. |       Public       |
-| 61016 |   TCP    | The port used by libp2p. |       Public       |
-| 20012 |   TCP    |      Json rpc/HTTP       |       Public       |
-| 20013 |   TCP    |    Json rpc/Websocket    |       Public       |
-| 20014 |   TCP    | Json rpc/HTTP/Websocket  | JWT Authentication |
 | 4000  |   TCP    |   BlockChain Explorer    |       Public       |
 | 6060  |   TCP    |         Metrics          |      Private       | 
 | 6060  |   TCP    |          Pprof           |      Private       | 
+| 20012 |   TCP    |      Json rpc/HTTP       |       Public       |
+| 20013 |   TCP    |    Json rpc/Websocket    |       Public       |
+| 20014 |   TCP    | Json rpc/HTTP/Websocket  | JWT Authentication |
+| 61015 |   UDP    | The port used by discv5. |       Public       |
+| 61016 |   TCP    | The port used by libp2p. |       Public       |
 
 ## License
 The N42 library is licensed under the
