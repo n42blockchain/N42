@@ -6,6 +6,8 @@ RUN apk add --no-cache build-base  linux-headers git bash ca-certificates  libst
 
 WORKDIR /n42
 ADD . .
+# feasible. Domestic users can cancel the comment on the following line when building images to use domestic proxies,
+# ENV GOPROXY=https://goproxy.cn,direct 
 ENV GO111MODULE="on"
 RUN go mod tidy && go build  -o ./build/bin/n42 ./cmd/n42
 
